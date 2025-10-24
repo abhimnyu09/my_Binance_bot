@@ -44,10 +44,10 @@ First, you need to get the project files onto your computer.
 
 ```bash
 # Clone the repository from your private GitHub repo
-git clone [YOUR_PRIVATE_GITHUB_REPO_LINK_HERE]
+git clone https://github.com/abhimnyu09/my_Binance_bot/
 
 # Navigate into the project directory
-cd my_binance_bot
+cd my_Binance_bot
 ```
 
 ### Step 2: Set Up Your API Keys (The Most Important Step)
@@ -206,14 +206,6 @@ tail -n 20 bot.log
 # Or open it in a text editor
 cat bot.log
 ```
-
-### Create Your Report
-
-For your **`report.pdf`**, take screenshots of:
-- Your terminal running these commands
-- The resulting output in the `bot.log` file
-- The Binance Testnet website showing your open orders or trade history
-
 ---
 
 ## 🔧 Troubleshooting
@@ -245,13 +237,3 @@ For your **`report.pdf`**, take screenshots of:
 - **Keep your API keys private**. Anyone with your keys can trade on your behalf.
 
 ---
-
-## 📄 License
-
-This project is created for educational purposes as part of a Python Developer assignment.
-
----
-
-## 🤝 Support
-
-If you encounter any issues or have questions, please refer to the official [Binance API Documentation](https://binance-docs.github.io/apidocs/futures/en/) or check your `bot.log` file for detailed e
